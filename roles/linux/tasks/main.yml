@@ -6,5 +6,5 @@
       yum:
         name: '*'
         state: latest
-        releasever: 8
-        
+        releasever: "8"
+
