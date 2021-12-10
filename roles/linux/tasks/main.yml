@@ -1,0 +1,10 @@
+    - name: Install Linux packages
+      yum:
+        name: "{{ linux_packages }}"
+        state: latest      
+    - name: Yum update
+      yum:
+        name: '*'
+        state: latest
+        releasever: 8
+        
