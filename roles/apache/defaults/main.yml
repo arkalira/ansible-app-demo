@@ -4,5 +4,5 @@ apache_packages:
 - python3-keycloak-httpd-client-install
 - keycloak-httpd-client-install
 - mod_dav_svn
-services:
+apache_services:
 - httpd

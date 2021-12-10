@@ -2,4 +2,6 @@ linux_packages:
 - vim
 - wget
 - zsh
-#- epel-release
+#- https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+gpg_key:
+# Irá la key gpg de epel

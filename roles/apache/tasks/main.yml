@@ -4,9 +4,10 @@
         state: present      
     - name: Start Apache server
       service:
-        name: "{{ services }}"
+        name: "{{ item }}"
         state: started
         enabled: True
+      with_items: "{{ apache_services }}"
     - name: Deploy static website
       copy:
         src: index.html
