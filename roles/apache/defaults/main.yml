@@ -1,0 +1,8 @@
+apache_packages:
+- httpd
+- redhat-logos-httpd
+- python3-keycloak-httpd-client-install
+- keycloak-httpd-client-install
+- mod_dav_svn
+services:
+- httpd
